@@ -7,7 +7,7 @@ class Solution:
         visited = set()
 
         def dfs(course):
-            if pre_map[course] == None:
+            if pre_map[course] == []:
                 return True
             if course in visited:
                 return False
